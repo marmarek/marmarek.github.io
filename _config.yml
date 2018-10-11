@@ -1,7 +1,7 @@
-title: Marmarek's blog
-email: marmarek@invisiblethingslab.com
+title: marmarek's blog
+email: blog@marmarek.net
 description: >-
-  Marmarek's blog
+  Cool stuff, Qubes OS and other things I do
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: marmarek
@@ -33,6 +33,7 @@ links: # see http://fontawesome.io/icons/#brand for all possible icons
 navigation:
   - index.html
 #  - archive.html
+  - about.md
 
 
 exclude:
