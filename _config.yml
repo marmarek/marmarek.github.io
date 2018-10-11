@@ -1,0 +1,19 @@
+title: Marmarek's blog
+email: marmarek@invisiblethingslab.com
+description: >-
+  Marmarek's blog
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: marmarek
+repository: marmarek/marmarek.github.io
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-slate
+plugins:
+  - jekyll-feed
+
+exclude:
+    - docker-compose.yml
+    - Gemfile
+    - Gemfile.lock
