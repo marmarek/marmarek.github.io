@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="about">
+<div class="photo">
+    <img src="/assets/Marek_2018.jpg" alt="Marek"/>
+    That's me.
+</div>
+<div class="content">
+    {{ content }}
+</div>
+</div>

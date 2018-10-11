@@ -6,12 +6,34 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: marmarek
 repository: marmarek/marmarek.github.io
+paginate: 2
+more: "read more »"
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
+#theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+# contrast theme settings
+
+defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
+sass: {style: expanded}
+
+style:
+  minimalist: false
+  dark: false
+
+links: # see http://fontawesome.io/icons/#brand for all possible icons
+#  - twitter: "https://twitter.com/twitter/"
+  - github: "https://github.com/marmarek"
+  - envelope: "mailto:blog@marmarek.net"
+
+navigation:
+  - index.html
+#  - archive.html
+
 
 exclude:
     - docker-compose.yml
